@@ -2998,3 +2998,41 @@
 2024-05-02 10:18:02 | info | [InstanceLoader] --- JwtModule dependencies initialized
 2024-05-02 10:18:02 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
 2024-05-02 10:18:02 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-02 10:18:02 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-02 10:18:02 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-02 10:18:02 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-02 10:18:02 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-02 10:18:02 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-02 10:18:02 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-02 10:18:02 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-02 10:18:02 | info | [NestApplication] --- Nest application successfully started
+2024-05-02 10:19:39 | info | [] --- success logout was be ::ffff:172.20.10.5
+2024-05-02 10:20:00 | info | [] --- success login was be ::ffff:172.20.10.5
+2024-05-02 10:20:16 | info | [] --- success logout was be ::ffff:172.20.10.5
+2024-05-02 10:20:25 | info | [] --- success login was be ::ffff:172.20.10.5
+2024-05-02 10:20:41 | info | [] --- success logout was be ::ffff:172.20.10.5
+2024-05-02 10:21:06 | info | [] --- success login was be ::ffff:172.20.10.5
+2024-05-02 10:21:13 | info | [] --- success logout was be ::ffff:172.20.10.5
+2024-05-02 10:21:41 | info | [] --- success login was be ::ffff:172.20.10.5
+2024-05-02 10:29:41 | info | [] --- success logout was be ::ffff:172.20.10.5
+2024-05-02 10:29:53 | info | [] --- success login was be ::ffff:172.20.10.5
+2024-05-02 10:40:47 | info | [] --- success logout was be ::ffff:172.20.10.5
+2024-05-02 10:41:18 | info | [] --- success login was be ::ffff:172.20.10.5
+2024-05-02 10:58:10 | info | [] --- success login was be ::ffff:172.20.10.5
+2024-05-02 10:58:33 | info | [] --- success login was be ::ffff:172.20.10.5
+2024-05-02 10:59:49 | info | [] --- success login was be ::ffff:172.20.10.5
+2024-05-02 11:00:34 | info | [] --- success login was be ::ffff:172.20.10.5
+2024-05-02 11:00:54 | info | [] --- success login was be ::ffff:172.20.10.5
+2024-05-02 11:08:35 | info | [] --- success login was be ::ffff:172.20.10.5
+2024-05-02 11:10:48 | info | [] --- success login was be ::ffff:172.20.10.5
+2024-05-02 11:42:58 | info | [] --- success logout was be ::ffff:172.20.10.5
+2024-05-02 11:43:09 | info | [] --- success login was be ::ffff:172.20.10.5
+2024-05-02 11:54:15 | info | [] --- success login was be ::ffff:172.20.10.5
+2024-05-02 12:14:17 | info | [] --- success logout was be ::ffff:172.20.10.5
+2024-05-02 12:14:31 | info | [] --- success login was be ::ffff:172.20.10.5
+2024-05-02 12:25:02 | info | [] --- success logout was be ::ffff:172.20.10.5
+2024-05-02 12:25:15 | info | [] --- success login was be ::ffff:172.20.10.5
+2024-05-02 13:06:59 | info | [] --- success login was be ::ffff:172.20.10.5
+2024-05-02 13:11:39 | info | [] --- success login was be ::ffff:172.20.10.5
+2024-05-02 13:17:35 | info | [] --- success logout was be ::ffff:172.20.10.5
+2024-05-02 13:17:49 | info | [] --- success login was be ::ffff:172.20.10.5
