@@ -10,7 +10,8 @@ async function bootstrap() {
     });
     app.use(cookieParser());
     app.enableCors({
-        origin: '*',
+        origin: ['http://192.168.137.144', 'http://192.168.137.144:3000', 'http://localhost:3000', 'http://localhost'],
+        methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
         credentials: true
     });
     await app.listen(8000);

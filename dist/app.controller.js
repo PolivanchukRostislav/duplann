@@ -49,14 +49,12 @@ let AppController = AppController_1 = class AppController {
             this.logger.log('invalid email was be ' + ip);
         }
         const jwt = await this.jwtService.signAsync({ id: user.id });
-        response.cookie('jwt', jwt, { httpOnly: true });
+        response.cookie('jwt', jwt, { httpOnly: false,
+            sameSite: 'strict',
+            secure: false, });
         this.logger.log('success login was be ' + ip);
         delete user.password;
-        delete user.id;
-        return {
-            user,
-            message: 'success'
-        };
+        return user;
     }
     async user(ip, request) {
         try {
@@ -67,6 +65,34 @@ let AppController = AppController_1 = class AppController {
                 throw new common_1.UnauthorizedException();
             }
             const user = await this.appService.findOne({ where: { id: data['id'] } });
+            const { password, id, ...result } = user;
+            this.logger.log('success get user by ' + ip);
+            return result;
+        }
+        catch (e) {
+            throw new common_1.UnauthorizedException();
+        }
+    }
+    async userById(ip, request) {
+        try {
+            const userId = request.params.id;
+            const cookies = request.headers['cookie'];
+            const jwtCookie = cookies.split(';').find(cookie => cookie.trim().startsWith('jwt='));
+            const jwt = jwtCookie ? jwtCookie.split('=')[1] : null;
+            if (!jwt) {
+                this.logger.log('JWT token not provided');
+                throw new common_1.UnauthorizedException('JWT token not provided');
+            }
+            const token = jwt.split(' ')[1];
+            const data = await this.jwtService.verifyAsync(token);
+            if (!data || data.id !== userId) {
+                this.logger.log('Invalid or expired JWT token');
+                throw new common_1.UnauthorizedException('Invalid or expired JWT token');
+            }
+            const user = await this.appService.findOne({ where: { id: userId } });
+            if (!user) {
+                throw new common_1.UnauthorizedException('User not found');
+            }
             const { password, id, ...result } = user;
             this.logger.log('success get user by ' + ip);
             return result;
@@ -114,6 +140,14 @@ __decorate([
     __metadata("design:paramtypes", [String, Object]),
     __metadata("design:returntype", Promise)
 ], AppController.prototype, "user", null);
+__decorate([
+    (0, common_1.Get)('user/:id'),
+    __param(0, (0, common_1.Ip)()),
+    __param(1, (0, common_1.Req)()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String, Object]),
+    __metadata("design:returntype", Promise)
+], AppController.prototype, "userById", null);
 __decorate([
     (0, common_1.Post)('logout'),
     __param(0, (0, common_1.Ip)()),

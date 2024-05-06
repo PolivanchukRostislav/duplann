@@ -60,18 +60,17 @@ export class AppController {
 
     const jwt = await this.jwtService.signAsync({ id: user.id });
 
-    response.cookie('jwt', jwt, { httpOnly: true });
+    response.cookie('jwt', jwt, { httpOnly: false, 
+    sameSite: 'strict',
+    secure: false, });
     this.logger.log('success login was be ' + ip);
 
     delete user.password;
-    delete user.id;
+   
 
 
 
-    return {
-      user,
-      message: 'success'
-    };
+    return  user;
   }
 
   @Get('user')
@@ -94,6 +93,40 @@ export class AppController {
       throw new UnauthorizedException();
     }
 
+  }
+
+  @Get('user/:id')
+  async userById(@Ip() ip: string, @Req() request: Request) {
+    try {
+      const userId = request.params.id; 
+      const cookies = request.headers['cookie']; 
+      const jwtCookie = cookies.split(';').find(cookie => cookie.trim().startsWith('jwt=')); 
+      const jwt = jwtCookie ? jwtCookie.split('=')[1] : null;
+      if (!jwt) {
+        this.logger.log('JWT token not provided');
+        throw new UnauthorizedException('JWT token not provided');
+      }
+
+      const token = jwt.split(' ')[1]; 
+
+      const data = await this.jwtService.verifyAsync(token);
+
+      if (!data || data.id !== userId) {
+        this.logger.log('Invalid or expired JWT token');
+        throw new UnauthorizedException('Invalid or expired JWT token');
+      }
+
+      const user = await this.appService.findOne({ where: { id: userId } });
+      if (!user) {
+        throw new UnauthorizedException('User not found');
+      }
+
+      const { password, id, ...result } = user;
+      this.logger.log('success get user by ' + ip);
+      return result;
+    } catch (e) {
+      throw new UnauthorizedException();
+    }
   }
 
   @Post('logout')

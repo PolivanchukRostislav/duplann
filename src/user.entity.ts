@@ -20,5 +20,8 @@ export class User{
     @Column()
     position: string;
 
+    @Column()
+    jwt: string;
+
 
 }
