@@ -41,58 +41,54 @@ export class AppController {
     @Ip() ip: string,
     @Body('email') email: string,
     @Body('password') password: string,
-    @Res({ passthrough: true }) response: Response,
+    @Res() response: Response, 
   ) {
     const user = await this.appService.findOne({ where: { email } });
 
-
-    if (!user) {
-      throw new BadRequestException('invalid email');
-      this.logger.log('invalid email was be ' + ip);
-
-    }
-
-    if (!await bcrypt.compare(password, user.password)) {
-      throw new BadRequestException('invalid password');
-      this.logger.log('invalid email was be ' + ip);
-
+    if (!user || !(await bcrypt.compare(password, user.password))) {
+      throw new BadRequestException('Invalid email or password');
     }
 
     const jwt = await this.jwtService.signAsync({ id: user.id });
+    const { password: _,  ...result } = user;
 
-    response.cookie('jwt', jwt, { httpOnly: false, 
-    sameSite: 'strict',
-    secure: false, });
-    this.logger.log('success login was be ' + ip);
+    response.json({
+      result,
+      jwt,
+    });
 
-    delete user.password;
-   
+    this.logger.log('Success login by ' + ip);
 
-
-
-    return  user;
+    return user;
   }
 
   @Get('user')
-  async user(@Ip() ip: string, @Req() request: Request) {
+  async user(@Ip() ip: string, @Body() body: { email: string, password: string, jwt: string }) {
     try {
-      const cookie = request.cookies['jwt'];
-
-      const data = await this.jwtService.verifyAsync(cookie);
-
-      if (!data) {
-        this.logger.log('error get user by ' + ip);
-        throw new UnauthorizedException();
+      const { email, password, jwt } = body;
+      if (!jwt) {
+        this.logger.log('JWT token not provided');
+        throw new UnauthorizedException('JWT token not provided');
       }
 
-      const user = await this.appService.findOne({ where: { id: data['id'] } })
-      const { password, id, ...result } = user;
-      this.logger.log('success get user by ' + ip);
+      const data = await this.jwtService.verifyAsync(jwt);
+      if (!data) {
+        this.logger.log('Invalid or expired JWT token');
+        throw new UnauthorizedException('Invalid or expired JWT token');
+      }
+
+      const user = await this.appService.findOne({ where: { id: data['id'] } });
+      if (!user) {
+        this.logger.log('User not found');
+        throw new UnauthorizedException('User not found');
+      }
+
+      const { password: _, id, ...result } = user;
+      this.logger.log('Success get user by ' + ip);
       return result;
     } catch (e) {
       throw new UnauthorizedException();
     }
-
   }
 
   @Get('user/:id')

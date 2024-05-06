@@ -4253,3 +4253,591 @@
 2024-05-06 13:00:01 | info | [InstanceLoader] --- JwtModule dependencies initialized
 2024-05-06 13:00:01 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
 2024-05-06 13:00:01 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:00:01 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:00:01 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:00:01 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:00:01 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:00:01 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:00:01 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:00:01 | info | [RouterExplorer] --- Mapped {/api/user/:id, GET} route
+2024-05-06 13:00:01 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:00:01 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:03:18 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:03:18 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:03:18 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:03:18 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:03:18 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:03:18 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:03:18 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:03:18 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:03:18 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:03:18 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:03:18 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:03:18 | info | [RouterExplorer] --- Mapped {/api/user/:id, GET} route
+2024-05-06 13:03:18 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:03:18 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:04:59 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:04:59 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:04:59 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:04:59 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:04:59 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:04:59 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:04:59 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:04:59 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:05:00 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:05:00 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:05:00 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:05:00 | info | [RouterExplorer] --- Mapped {/api/user/:id, GET} route
+2024-05-06 13:05:00 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:05:00 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:05:03 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:05:03 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:05:03 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:05:03 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:05:03 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:05:03 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:05:03 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:05:03 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:05:03 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:05:03 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:05:03 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:05:03 | info | [RouterExplorer] --- Mapped {/api/user/:id, GET} route
+2024-05-06 13:05:03 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:05:03 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:05:07 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:05:07 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:05:07 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:05:07 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:05:07 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:05:07 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:05:07 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:05:07 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:05:07 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:05:07 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:05:07 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:05:07 | info | [RouterExplorer] --- Mapped {/api/user/:id, GET} route
+2024-05-06 13:05:07 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:05:07 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:05:13 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:05:13 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:05:13 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:05:13 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:05:13 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:05:13 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:05:13 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:05:13 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:05:13 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:05:13 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:05:13 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:05:13 | info | [RouterExplorer] --- Mapped {/api/user/:id, GET} route
+2024-05-06 13:05:13 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:05:13 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:05:16 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:05:16 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:05:16 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:05:16 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:05:16 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:05:16 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:05:16 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:05:16 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:05:16 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:05:16 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:05:16 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:05:16 | info | [RouterExplorer] --- Mapped {/api/user/:id, GET} route
+2024-05-06 13:05:16 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:05:16 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:05:17 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 13:05:53 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:05:53 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:05:53 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:05:53 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:05:53 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:05:53 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:05:53 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:05:53 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:05:53 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:05:53 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:05:53 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:05:53 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:05:53 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:07:13 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:07:13 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:07:13 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:07:13 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:07:13 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:07:13 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:07:13 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:07:13 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:07:13 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:07:13 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:07:13 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:07:13 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:07:13 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:07:42 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:07:45 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:07:46 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:08:07 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:08:09 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:08:09 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:08:22 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:08:24 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:08:55 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:08:56 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:08:56 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:08:56 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:08:56 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:08:56 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:08:56 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:08:56 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:08:56 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:08:56 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:08:56 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:08:56 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:08:56 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:08:57 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:08:58 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:08:58 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:08:58 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:08:58 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:08:58 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:08:58 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:08:58 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:08:58 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:08:58 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:08:58 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:08:58 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:08:58 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:09:00 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 13:09:14 | info | [] --- Authorization header not provided
+2024-05-06 13:10:14 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:10:14 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:10:14 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:10:14 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:10:14 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:10:14 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:10:14 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:10:14 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:10:14 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:10:14 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:10:14 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:10:14 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:10:14 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:13:17 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:13:17 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:13:17 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:13:17 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:13:17 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:13:17 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:13:17 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:13:17 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:13:17 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:13:17 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:13:17 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:13:17 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:13:17 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:13:19 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:13:19 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:13:19 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:13:19 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:13:19 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:13:19 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:13:19 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:13:19 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:13:19 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:13:19 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:13:19 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:13:19 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:13:19 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:13:21 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:13:22 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:13:22 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:13:22 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:13:22 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:13:22 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:13:22 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:13:22 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:13:22 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:13:22 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:13:22 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:13:22 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:13:22 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:13:23 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 13:13:28 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 13:13:31 | info | [] --- Success get user by ::ffff:172.20.10.5
+2024-05-06 13:14:18 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:14:19 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:14:19 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:14:20 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:14:41 | info | [] --- JWT token not provided
+2024-05-06 13:14:45 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:14:47 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:15:03 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:15:04 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:15:04 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:15:05 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:15:40 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:15:53 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:15:53 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:15:53 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:15:53 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:15:53 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:15:53 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:15:53 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:15:53 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:15:53 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:15:53 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:15:53 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:15:53 | info | [RouterExplorer] --- Mapped {/api/user/:id, GET} route
+2024-05-06 13:15:53 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:15:53 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:15:57 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:15:58 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:15:58 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:15:58 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:15:58 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:15:58 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:15:58 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:15:58 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:15:58 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:15:58 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:15:58 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:15:58 | info | [RouterExplorer] --- Mapped {/api/user/:id, GET} route
+2024-05-06 13:15:58 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:15:58 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:16:05 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:16:05 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:16:05 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:16:05 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:16:05 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:16:05 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:16:05 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:16:05 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:16:05 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:16:05 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:16:05 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:16:05 | info | [RouterExplorer] --- Mapped {/api/user/:id, GET} route
+2024-05-06 13:16:05 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:16:05 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:16:48 | info | [] --- success login was be ::ffff:172.20.10.5
+2024-05-06 13:16:55 | info | [] --- success logout was be ::ffff:172.20.10.5
+2024-05-06 13:16:58 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:16:59 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:16:59 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:16:59 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:16:59 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:16:59 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:16:59 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:16:59 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:16:59 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:16:59 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:16:59 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:16:59 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:16:59 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:19:19 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 13:19:41 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:19:42 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:19:43 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:19:43 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:19:43 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:19:44 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:20:49 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 13:22:41 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:22:41 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:22:42 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:22:42 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:22:42 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:23:22 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 13:23:49 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:23:50 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:23:50 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:23:50 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:23:50 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:23:50 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:24:25 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 13:24:33 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:24:34 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:26:49 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:26:49 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:26:49 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:26:49 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:26:49 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:26:49 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:26:49 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:26:49 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:26:49 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:26:49 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:26:49 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:26:49 | info | [RouterExplorer] --- Mapped {/api/user/:id, GET} route
+2024-05-06 13:26:49 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:26:49 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:26:57 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:26:57 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:26:57 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:26:57 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:26:57 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:26:57 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:26:57 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:26:57 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:26:57 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:26:57 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:26:57 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:26:57 | info | [RouterExplorer] --- Mapped {/api/user/:id, GET} route
+2024-05-06 13:26:57 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:26:57 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:27:02 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:27:02 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:27:02 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:27:02 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:27:02 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:27:02 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:27:02 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:27:02 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:27:02 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:27:02 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:27:02 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:27:02 | info | [RouterExplorer] --- Mapped {/api/user/:id, GET} route
+2024-05-06 13:27:02 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:27:02 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:27:10 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:27:10 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:27:10 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:27:10 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:27:10 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:27:10 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:27:10 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:27:10 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:27:10 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:27:10 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:27:10 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:27:10 | info | [RouterExplorer] --- Mapped {/api/user/:id, GET} route
+2024-05-06 13:27:10 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:27:10 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:27:12 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 13:27:16 | info | [] --- Success get user by ::ffff:172.20.10.5
+2024-05-06 13:27:27 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 13:28:25 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:30:42 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:30:43 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:30:43 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:30:43 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:30:43 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:30:43 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:30:43 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:30:43 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:30:43 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:30:43 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:30:43 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:30:43 | info | [RouterExplorer] --- Mapped {/api/user/:id, GET} route
+2024-05-06 13:30:43 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:30:43 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:30:46 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:30:46 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:30:46 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:30:46 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:30:46 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:30:46 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:30:46 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:30:46 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:30:46 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:30:46 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:30:46 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:30:46 | info | [RouterExplorer] --- Mapped {/api/user/:id, GET} route
+2024-05-06 13:30:46 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:30:46 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:30:53 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 13:30:54 | info | [] --- JWT token not provided
+2024-05-06 13:38:07 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:38:08 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:38:08 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:38:08 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:42:04 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:42:06 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:45:19 | info | [] --- JWT token not provided
+2024-05-06 13:46:30 | info | [] --- JWT token not provided
+2024-05-06 13:49:51 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:49:51 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:49:51 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:49:51 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:49:51 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:49:51 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:49:51 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:49:51 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:49:51 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:49:51 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:49:51 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:49:51 | info | [RouterExplorer] --- Mapped {/api/user/:id, GET} route
+2024-05-06 13:49:51 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:49:51 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:49:54 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 13:50:01 | info | [] --- JWT token not provided
+2024-05-06 13:50:17 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:50:18 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:50:19 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:51:51 | info | [] --- JWT token not provided
+2024-05-06 13:51:54 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:51:55 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:51:57 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:53:05 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:59:44 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 13:59:44 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:59:44 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 13:59:44 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 13:59:44 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 13:59:44 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 13:59:44 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 13:59:44 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 13:59:44 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 13:59:44 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 13:59:44 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 13:59:44 | info | [RouterExplorer] --- Mapped {/api/user/:id, GET} route
+2024-05-06 13:59:44 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 13:59:44 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 13:59:46 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:59:46 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:59:46 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:59:46 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 13:59:46 | info | [] --- Success logout by ::ffff:172.20.10.5
+2024-05-06 14:00:34 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 14:00:34 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 14:00:34 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 14:00:34 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 14:00:34 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 14:00:34 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 14:00:34 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 14:00:34 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 14:00:34 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 14:00:34 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 14:00:34 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 14:00:34 | info | [RouterExplorer] --- Mapped {/api/user/:id, GET} route
+2024-05-06 14:00:34 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 14:00:34 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 14:01:39 | info | [] --- success logout was be ::ffff:172.20.10.5
+2024-05-06 14:01:56 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 14:01:59 | info | [] --- JWT token not provided
+2024-05-06 14:04:34 | info | [] --- JWT token not provided
+2024-05-06 14:09:49 | info | [] --- success logout was be ::ffff:172.20.10.5
+2024-05-06 14:10:09 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 14:10:11 | info | [] --- JWT token not provided
+2024-05-06 14:14:56 | info | [] --- success logout was be ::ffff:172.20.10.5
+2024-05-06 14:15:10 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 15:42:07 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 15:42:08 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 15:42:08 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 15:42:08 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 15:42:08 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 15:42:08 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 15:42:08 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 15:42:08 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 15:42:08 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 15:42:08 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 15:42:08 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 15:42:08 | info | [RouterExplorer] --- Mapped {/api/user/:id, GET} route
+2024-05-06 15:42:08 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 15:42:08 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 15:42:09 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 15:42:09 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 15:42:09 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 15:42:09 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 15:42:09 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 15:42:09 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 15:42:09 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 15:42:09 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 15:42:09 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 15:42:09 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 15:42:09 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 15:42:09 | info | [RouterExplorer] --- Mapped {/api/user/:id, GET} route
+2024-05-06 15:42:09 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 15:42:09 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 15:43:40 | info | [] --- success logout was be ::ffff:172.20.10.5
+2024-05-06 15:44:15 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 15:45:23 | info | [] --- JWT token not provided
+2024-05-06 15:45:45 | info | [] --- JWT token not provided
+2024-05-06 15:47:00 | info | [] --- success logout was be ::ffff:172.20.10.5
+2024-05-06 15:47:13 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 15:49:51 | info | [] --- JWT token not provided
+2024-05-06 15:50:35 | info | [] --- JWT token not provided
+2024-05-06 15:50:40 | info | [] --- success logout was be ::ffff:172.20.10.5
+2024-05-06 15:50:55 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 15:50:58 | info | [] --- JWT token not provided
+2024-05-06 15:53:41 | info | [] --- JWT token not provided
+2024-05-06 15:53:54 | info | [] --- JWT token not provided
+2024-05-06 15:54:00 | info | [] --- success logout was be ::ffff:172.20.10.5
+2024-05-06 15:54:12 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 15:54:14 | info | [] --- JWT token not provided
+2024-05-06 15:55:40 | info | [] --- success logout was be ::ffff:172.20.10.5
+2024-05-06 15:55:55 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 15:55:57 | info | [] --- JWT token not provided
+2024-05-06 15:58:32 | info | [] --- JWT token not provided
+2024-05-06 15:59:07 | info | [] --- JWT token not provided
+2024-05-06 16:02:29 | info | [] --- JWT token not provided
+2024-05-06 16:04:02 | info | [] --- JWT token not provided
+2024-05-06 16:04:08 | info | [] --- success logout was be ::ffff:172.20.10.5
+2024-05-06 16:04:23 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 16:04:25 | info | [] --- JWT token not provided
+2024-05-06 16:06:41 | info | [] --- success logout was be ::ffff:172.20.10.5
+2024-05-06 16:06:54 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 16:06:55 | info | [] --- JWT token not provided
+2024-05-06 16:09:36 | info | [] --- JWT token not provided
+2024-05-06 16:09:43 | info | [] --- success logout was be ::ffff:172.20.10.5
+2024-05-06 16:09:55 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 16:09:56 | info | [] --- JWT token not provided
+2024-05-06 16:11:31 | info | [] --- JWT token not provided
+2024-05-06 16:11:59 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 16:12:01 | info | [] --- JWT token not provided
+2024-05-06 16:13:45 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 16:13:47 | info | [] --- JWT token not provided
+2024-05-06 16:14:29 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 16:14:32 | info | [] --- JWT token not provided
+2024-05-06 16:15:41 | info | [] --- Success get user by ::ffff:172.20.10.5
+2024-05-06 16:15:46 | info | [] --- Success get user by ::ffff:172.20.10.5
+2024-05-06 16:15:58 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 16:16:01 | info | [] --- success logout was be ::ffff:172.20.10.5
+2024-05-06 16:22:08 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 16:22:10 | info | [] --- JWT token not provided
+2024-05-06 16:22:23 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 16:22:23 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 16:22:23 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 16:22:23 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 16:22:23 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 16:22:23 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 16:22:23 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 16:22:23 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 16:22:23 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 16:22:23 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 16:22:23 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 16:22:23 | info | [RouterExplorer] --- Mapped {/api/user/:id, GET} route
+2024-05-06 16:22:23 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 16:22:23 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 16:23:10 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 16:24:06 | info | [NestFactory] --- Starting Nest application...
+2024-05-06 16:24:06 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 16:24:06 | info | [InstanceLoader] --- JwtModule dependencies initialized
+2024-05-06 16:24:06 | info | [InstanceLoader] --- MyLoggerModule dependencies initialized
+2024-05-06 16:24:06 | info | [InstanceLoader] --- TypeOrmCoreModule dependencies initialized
+2024-05-06 16:24:06 | info | [InstanceLoader] --- TypeOrmModule dependencies initialized
+2024-05-06 16:24:06 | info | [InstanceLoader] --- AppModule dependencies initialized
+2024-05-06 16:24:06 | info | [RoutesResolver] --- AppController {/api}:
+2024-05-06 16:24:06 | info | [RouterExplorer] --- Mapped {/api/register, POST} route
+2024-05-06 16:24:06 | info | [RouterExplorer] --- Mapped {/api/login, POST} route
+2024-05-06 16:24:06 | info | [RouterExplorer] --- Mapped {/api/user, GET} route
+2024-05-06 16:24:06 | info | [RouterExplorer] --- Mapped {/api/user/:id, GET} route
+2024-05-06 16:24:06 | info | [RouterExplorer] --- Mapped {/api/logout, POST} route
+2024-05-06 16:24:06 | info | [NestApplication] --- Nest application successfully started
+2024-05-06 16:24:09 | info | [] --- JWT token not provided
+2024-05-06 16:24:13 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 16:24:33 | info | [] --- JWT token not provided
+2024-05-06 16:24:52 | info | [] --- Success get user by ::ffff:172.20.10.5
+2024-05-06 16:25:50 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 16:28:27 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 16:29:12 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 16:38:46 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 16:44:45 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 16:46:41 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 16:57:42 | info | [] --- Success login by ::ffff:172.20.10.5
+2024-05-06 16:59:23 | info | [] --- JWT token not provided
+2024-05-06 16:59:35 | info | [] --- JWT token not provided
+2024-05-06 17:07:28 | info | [] --- JWT token not provided
+2024-05-06 17:08:09 | info | [] --- JWT token not provided
+2024-05-06 17:08:22 | info | [] --- JWT token not provided
+2024-05-06 17:09:03 | info | [] --- JWT token not provided
+2024-05-06 17:10:10 | info | [] --- JWT token not provided
