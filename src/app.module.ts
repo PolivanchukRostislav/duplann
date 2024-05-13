@@ -5,6 +5,10 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { User } from './user.entity';
 import { JwtModule } from '@nestjs/jwt';
 import { MyLoggerModule } from './my-logger/my-logger.module';
+import { Works } from './works/works.entity';
+import { WorksController } from './works/works.controller';
+import { WorksService } from './works/works.service';
+
 
 @Module({
   imports: [
@@ -15,17 +19,17 @@ import { MyLoggerModule } from './my-logger/my-logger.module';
       username: 'root',
       password: '123456789',
       database: 'test3',
-      entities: [User],
+      entities: [User, Works,],
       synchronize: true,
     }),
-    TypeOrmModule.forFeature([User]),
-    JwtModule.register( {
-      secret:'duplom',
-      signOptions: {expiresIn: '1d'}
+    TypeOrmModule.forFeature([User, Works,]),
+    JwtModule.register({
+      secret: 'duplom',
+      signOptions: { expiresIn: '1d' },
     }),
-    MyLoggerModule
+    MyLoggerModule,
   ],
-  controllers: [AppController],
-  providers: [AppService],
+  controllers: [AppController, WorksController],
+  providers: [AppService, WorksService],
 })
-export class AppModule { }
+export class AppModule {}

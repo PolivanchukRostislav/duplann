@@ -1,6 +1,5 @@
-/// <reference types="cookie-parser" />
 import { AppService } from './app.service';
-import { Response, Request } from 'express';
+import { Response } from 'express';
 import { JwtService } from '@nestjs/jwt';
 export declare class AppController {
     private readonly appService;
@@ -14,12 +13,7 @@ export declare class AppController {
         password: string;
         jwt: string;
     }): Promise<{
-        firstName: string;
-        lastName: string;
-        email: string;
-        position: string;
-    }>;
-    userById(ip: string, request: Request): Promise<{
+        id: number;
         firstName: string;
         lastName: string;
         email: string;
@@ -28,4 +22,5 @@ export declare class AppController {
     logout(ip: string, response: Response): Promise<{
         message: string;
     }>;
+    update(ip: string, id: string, body: any): Promise<import("./user.entity").User>;
 }

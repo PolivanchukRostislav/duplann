@@ -14,6 +14,9 @@ const typeorm_1 = require("@nestjs/typeorm");
 const user_entity_1 = require("./user.entity");
 const jwt_1 = require("@nestjs/jwt");
 const my_logger_module_1 = require("./my-logger/my-logger.module");
+const works_entity_1 = require("./works/works.entity");
+const works_controller_1 = require("./works/works.controller");
+const works_service_1 = require("./works/works.service");
 let AppModule = class AppModule {
 };
 exports.AppModule = AppModule;
@@ -27,18 +30,18 @@ exports.AppModule = AppModule = __decorate([
                 username: 'root',
                 password: '123456789',
                 database: 'test3',
-                entities: [user_entity_1.User],
+                entities: [user_entity_1.User, works_entity_1.Works,],
                 synchronize: true,
             }),
-            typeorm_1.TypeOrmModule.forFeature([user_entity_1.User]),
+            typeorm_1.TypeOrmModule.forFeature([user_entity_1.User, works_entity_1.Works,]),
             jwt_1.JwtModule.register({
                 secret: 'duplom',
-                signOptions: { expiresIn: '1d' }
+                signOptions: { expiresIn: '1d' },
             }),
-            my_logger_module_1.MyLoggerModule
+            my_logger_module_1.MyLoggerModule,
         ],
-        controllers: [app_controller_1.AppController],
-        providers: [app_service_1.AppService],
+        controllers: [app_controller_1.AppController, works_controller_1.WorksController],
+        providers: [app_service_1.AppService, works_service_1.WorksService],
     })
 ], AppModule);
 //# sourceMappingURL=app.module.js.map

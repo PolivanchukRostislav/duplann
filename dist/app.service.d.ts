@@ -5,4 +5,5 @@ export declare class AppService {
     constructor(userRepository: Repository<User>);
     create(data: any): Promise<User>;
     findOne(condition: any): Promise<User>;
+    update(id: number, data: any): Promise<User>;
 }

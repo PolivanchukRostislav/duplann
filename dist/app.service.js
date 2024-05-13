@@ -27,6 +27,20 @@ let AppService = class AppService {
     async findOne(condition) {
         return this.userRepository.findOne(condition);
     }
+    async update(id, data) {
+        try {
+            const user = await this.userRepository.findOne({ where: { id } });
+            if (!user) {
+                throw new common_1.NotFoundException('User not found');
+            }
+            Object.assign(user, data);
+            const updatedUser = await this.userRepository.save(user);
+            return updatedUser;
+        }
+        catch (error) {
+            throw new common_1.HttpException({ message: error.message }, error.getStatus());
+        }
+    }
 };
 exports.AppService = AppService;
 exports.AppService = AppService = __decorate([

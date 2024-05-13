@@ -69,36 +69,8 @@ let AppController = AppController_1 = class AppController {
                 this.logger.log('User not found');
                 throw new common_1.UnauthorizedException('User not found');
             }
-            const { password: _, id, ...result } = user;
+            const { password: _, ...result } = user;
             this.logger.log('Success get user by ' + ip);
-            return result;
-        }
-        catch (e) {
-            throw new common_1.UnauthorizedException();
-        }
-    }
-    async userById(ip, request) {
-        try {
-            const userId = request.params.id;
-            const cookies = request.headers['cookie'];
-            const jwtCookie = cookies.split(';').find(cookie => cookie.trim().startsWith('jwt='));
-            const jwt = jwtCookie ? jwtCookie.split('=')[1] : null;
-            if (!jwt) {
-                this.logger.log('JWT token not provided');
-                throw new common_1.UnauthorizedException('JWT token not provided');
-            }
-            const token = jwt.split(' ')[1];
-            const data = await this.jwtService.verifyAsync(token);
-            if (!data || data.id !== userId) {
-                this.logger.log('Invalid or expired JWT token');
-                throw new common_1.UnauthorizedException('Invalid or expired JWT token');
-            }
-            const user = await this.appService.findOne({ where: { id: userId } });
-            if (!user) {
-                throw new common_1.UnauthorizedException('User not found');
-            }
-            const { password, id, ...result } = user;
-            this.logger.log('success get user by ' + ip);
             return result;
         }
         catch (e) {
@@ -111,6 +83,39 @@ let AppController = AppController_1 = class AppController {
         return {
             message: 'success'
         };
+    }
+    async update(ip, id, body) {
+        try {
+            const { jwt, data } = body;
+            if (!jwt) {
+                this.logger.log('JWT token not provided');
+                throw new common_1.UnauthorizedException('JWT token not provided');
+            }
+            const jwtData = await this.jwtService.verifyAsync(jwt);
+            if (!jwtData) {
+                this.logger.log('Invalid or expired JWT token');
+                throw new common_1.UnauthorizedException('Invalid or expired JWT token');
+            }
+            if (jwtData.id != id) {
+                this.logger.log('User does not have permission to update this resource');
+                throw new common_1.UnauthorizedException('User does not have permission to update this resource');
+            }
+            if (!Object.keys(data).length) {
+                this.logger.log('No data provided for update');
+                throw new common_1.BadRequestException('No data provided for update');
+            }
+            const intId = parseInt(id);
+            const updatedUser = await this.appService.update(intId, data);
+            if (!updatedUser) {
+                this.logger.log('User not found');
+                throw new common_1.NotFoundException('User not found');
+            }
+            this.logger.log('Success update user by ' + ip);
+            return updatedUser;
+        }
+        catch (e) {
+            throw new common_1.UnauthorizedException();
+        }
     }
 };
 exports.AppController = AppController;
@@ -145,14 +150,6 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], AppController.prototype, "user", null);
 __decorate([
-    (0, common_1.Get)('user/:id'),
-    __param(0, (0, common_1.Ip)()),
-    __param(1, (0, common_1.Req)()),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String, Object]),
-    __metadata("design:returntype", Promise)
-], AppController.prototype, "userById", null);
-__decorate([
     (0, common_1.Post)('logout'),
     __param(0, (0, common_1.Ip)()),
     __param(1, (0, common_1.Res)({ passthrough: true })),
@@ -160,6 +157,15 @@ __decorate([
     __metadata("design:paramtypes", [String, Object]),
     __metadata("design:returntype", Promise)
 ], AppController.prototype, "logout", null);
+__decorate([
+    (0, common_1.Patch)('user/:id'),
+    __param(0, (0, common_1.Ip)()),
+    __param(1, (0, common_1.Param)('id')),
+    __param(2, (0, common_1.Body)()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String, String, Object]),
+    __metadata("design:returntype", Promise)
+], AppController.prototype, "update", null);
 exports.AppController = AppController = AppController_1 = __decorate([
     (0, common_1.Controller)('api'),
     __metadata("design:paramtypes", [app_service_1.AppService,

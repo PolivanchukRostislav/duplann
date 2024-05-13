@@ -1,4 +1,4 @@
-import { BadRequestException, Body, Controller, Get, Post, Req, Res, UnauthorizedException, Ip } from '@nestjs/common';
+import { BadRequestException, Body, Controller, Get, Post, Req, Res, UnauthorizedException, Ip, Patch, Param, NotFoundException } from '@nestjs/common';
 import { AppService } from './app.service';
 import * as bcrypt from 'bcrypt';
 import { Response, Request } from 'express';
@@ -41,7 +41,7 @@ export class AppController {
     @Ip() ip: string,
     @Body('email') email: string,
     @Body('password') password: string,
-    @Res() response: Response, 
+    @Res() response: Response,
   ) {
     const user = await this.appService.findOne({ where: { email } });
 
@@ -50,7 +50,7 @@ export class AppController {
     }
 
     const jwt = await this.jwtService.signAsync({ id: user.id });
-    const { password: _,  ...result } = user;
+    const { password: _, ...result } = user;
 
     response.json({
       result,
@@ -83,42 +83,8 @@ export class AppController {
         throw new UnauthorizedException('User not found');
       }
 
-      const { password: _, id, ...result } = user;
+      const { password: _, ...result } = user;
       this.logger.log('Success get user by ' + ip);
-      return result;
-    } catch (e) {
-      throw new UnauthorizedException();
-    }
-  }
-
-  @Get('user/:id')
-  async userById(@Ip() ip: string, @Req() request: Request) {
-    try {
-      const userId = request.params.id; 
-      const cookies = request.headers['cookie']; 
-      const jwtCookie = cookies.split(';').find(cookie => cookie.trim().startsWith('jwt=')); 
-      const jwt = jwtCookie ? jwtCookie.split('=')[1] : null;
-      if (!jwt) {
-        this.logger.log('JWT token not provided');
-        throw new UnauthorizedException('JWT token not provided');
-      }
-
-      const token = jwt.split(' ')[1]; 
-
-      const data = await this.jwtService.verifyAsync(token);
-
-      if (!data || data.id !== userId) {
-        this.logger.log('Invalid or expired JWT token');
-        throw new UnauthorizedException('Invalid or expired JWT token');
-      }
-
-      const user = await this.appService.findOne({ where: { id: userId } });
-      if (!user) {
-        throw new UnauthorizedException('User not found');
-      }
-
-      const { password, id, ...result } = user;
-      this.logger.log('success get user by ' + ip);
       return result;
     } catch (e) {
       throw new UnauthorizedException();
@@ -133,5 +99,82 @@ export class AppController {
       message: 'success'
     };
   }
+
+  // @Get('user/:id')
+  // async userById(@Ip() ip: string, @Req() request: Request) {
+  //   try {
+  //     const userId = request.params.id; 
+  //     const cookies = request.headers['cookie']; 
+  //     const jwtCookie = cookies.split(';').find(cookie => cookie.trim().startsWith('jwt=')); 
+  //     const jwt = jwtCookie ? jwtCookie.split('=')[1] : null;
+  //     if (!jwt) {
+  //       this.logger.log('JWT token not provided');
+  //       throw new UnauthorizedException('JWT token not provided');
+  //     }
+
+  //     const token = jwt.split(' ')[1]; 
+
+  //     const data = await this.jwtService.verifyAsync(token);
+
+  //     if (!data || data.id !== userId) {
+  //       this.logger.log('Invalid or expired JWT token');
+  //       throw new UnauthorizedException('Invalid or expired JWT token');
+  //     }
+
+  //     const user = await this.appService.findOne({ where: { id: userId } });
+  //     if (!user) {
+  //       throw new UnauthorizedException('User not found');
+  //     }
+
+  //     const { password, id, ...result } = user;
+  //     this.logger.log('success get user by ' + ip);
+  //     return result;
+  //   } catch (e) {
+  //     throw new UnauthorizedException();
+  //   }
+  // }
+
+  @Patch('user/:id')
+  async update(@Ip() ip: string, @Param('id') id: string, @Body() body: any) {
+    try {
+      const { jwt, data } = body;
+      if (!jwt) {
+        this.logger.log('JWT token not provided');
+        throw new UnauthorizedException('JWT token not provided');
+      }
+      const jwtData = await this.jwtService.verifyAsync(jwt);
+      if (!jwtData) {
+        this.logger.log('Invalid or expired JWT token');
+        throw new UnauthorizedException('Invalid or expired JWT token');
+      }
+
+      if (jwtData.id != id) {
+        this.logger.log('User does not have permission to update this resource');
+        throw new UnauthorizedException('User does not have permission to update this resource');
+      }
+
+      if (!Object.keys(data).length) {
+        this.logger.log('No data provided for update');
+        throw new BadRequestException('No data provided for update');
+      }
+      const intId = parseInt(id);
+      const updatedUser = await this.appService.update(intId, data);
+      if (!updatedUser) {
+        this.logger.log('User not found');
+        throw new NotFoundException('User not found');
+      }
+
+      this.logger.log('Success update user by ' + ip);
+      return updatedUser;
+    } catch (e) {
+      throw new UnauthorizedException();
+    }
+  }
+
+
+
+
+
+
 
 }
